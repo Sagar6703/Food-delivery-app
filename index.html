@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FoodExpress - Fastest Food Delivery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center/cover;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      color: white;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+    .feature-icon {
+      font-size: 3rem;
+      color: #ff5722;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+    .h1 {
+      font-size: larger;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">FoodExpress</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navmenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container text-center">
+    <h1 class="display-3">Delicious Food, Delivered Fast</h1>
+    <p class="lead">Order from your favorite restaurants at lightning speed</p>
+    <a href="#" class="btn btn-warning btn-lg mt-3">Order Now</a>
+  </div>
+</section>
+
+<!-- Features -->
+<section class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="feature-icon mb-3">
+          <i class="bi bi-basket"></i>
+        </div>
+        <h4>Variety of Choices</h4>
+        <p>Choose from hundreds of restaurants and cuisines around you.</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon mb-3">
+          <i class="bi bi-clock"></i>
+        </div>
+        <h4>Quick Delivery</h4>
+        <p>We deliver your food hot and fresh in no time!</p>
+      </div>
+      <div class="col-md-4">
+        <div class="feature-icon mb-3">
+          <i class="bi bi-credit-card"></i>
+        </div>
+        <h4>Easy Payments</h4>
+        <p>Multiple secure payment options available for your convenience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Popular Foods -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Popular Dishes</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg" class="card-img-top" alt="Burger">
+          <div class="card-body">
+            <h5 class="card-title">Cheese Burger</h5>
+            <p class="card-text">Tasty patty with melted cheese, fresh lettuce, and tomatoes.</p>
+            <h1 class="h1">₹399</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2f38jmDq8OZhG72KpH345LC9teABsdTXrqg&s" class="card-img-top" alt="Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Pepperoni Pizza</h5>
+            <p class="card-text">Classic Italian pizza loaded with pepperoni and mozzarella cheese.</p>
+            <h1 class="h1">₹299</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://skinnyspatula.com/wp-content/uploads/2022/10/Creamy_Garlic_Chicken_Pasta_0-735x735.jpg" class="card-img-top" alt="Pasta">
+          <div class="card-body">
+            <h5 class="card-title">Creamy Pasta</h5>
+            <p class="card-text">Pasta tossed in a rich and creamy Alfredo sauce.</p>
+            <h1 class="h1">₹349</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://www.cookwithnabeela.com/wp-content/uploads/2025/01/ChickenBiryani.webp" class="card-img-top" alt="Pasta">
+          <div class="card-body">
+            <h5 class="card-title">Biryani</h5>
+            <p class="card-text">Hyderabadi dum tandoori biryani.</p>
+            <h1 class="h1">₹799</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/06/brown-rice-dosa-recipe.jpg" class="card-img-top" alt="Pasta">
+          <div class="card-body">
+            <h5 class="card-title">Dosa</h5>
+            <p class="card-text">Special South Indian cuisines,masala dosa.</p>
+            <h1 class="h1">₹129</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card shadow-sm">
+          <img src="https://www.sharmispassions.com/wp-content/uploads/2014/11/SchezwanFriedRice5-500x500.jpg" class="card-img-top" alt="Pasta">
+          <div class="card-body">
+            <h5 class="card-title">Indo-Chinese</h5>
+            <p class="card-text">Authentic Indo-chinese noodles and fried rice
+            </p>
+            <h1 class="h1">₹220</h1>
+            <a href="#" class="btn btn-primary">Order</a>
+          </div>
+        </div>
+      </div>
+      <section class="py-5 bg-light">
+        <div class="container">
+          <h2 class="text-center mb-5">Popular Restaurants Wadala</h2>
+          <div class="row g-4">
+
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbKWHGKuUPG1bpa8xzBiYnCpYD7MSP1d8z3g&s" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                  <h5 class="card-title">Punjabi Tadka</h5>
+                  <p class="card-text"> Authentic Indian cuisines</p>
+                  
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ2mjIVC6s1WMFMV3etJ2y3H6ibu4_UAeTqw&s" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                  <h5 class="card-title">Udupi</h5>
+                  <p class="card-text">Special South Indian cuisines.</p>
+                 
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-sm">
+                <img src="https://content3.jdmagicbox.com/v2/comp/mumbai/l1/022pxx22.xx22.180901121250.v1l1/catalogue/chopsticks-chinchpokli-mumbai-chinese-restaurants-w5jthmnkf7.jpg" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                  <h5 class="card-title">Chops Sticks</h5>
+                  <p class="card-text">Authentic Indo-chinese dishes.
+                  </p>
+                  
+                  <a href="#" class="btn btn-primary">Order</a>
+                </div>
+              </div>
+            </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-5 text-center" style="background-color: #ffc107;">
+  <div class="container">
+    <h2 class="mb-3">Get our app for faster orders!</h2>
+    <a href="#" class="btn btn-dark btn-lg">Download Now</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <p class="mb-0">&copy; 2025 FoodExpress. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
